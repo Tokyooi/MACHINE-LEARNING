@@ -10,11 +10,11 @@ This notebook performs sentiment analysis on a dataset of social media posts. Th
   - `Timestamp`, `User`, `Platform`, `Hashtags`, `Retweets`, `Likes`, `Country`, `Year`, `Month`, `Day`, `Hour`: Additional metadata
 
 ## Project Workflow
-1. **Define the Problem**  
+1. Define the Problem
    - Objective: Build a model to predict sentiment from post text.
    - Type: Multi-class classification
 
-2. **Data Collection & Preparation**  
+2. Data Collection & Preparation
    - Load and explore dataset
    - Drop irrelevant columns (e.g., unnamed index columns)
    - Handle missing values if any
