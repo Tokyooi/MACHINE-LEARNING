@@ -15,6 +15,14 @@ This notebook performs sentiment analysis on a dataset of social media posts. Th
    - Type: Multi-class classification
 
 2. Data Collection & Preparation
+   - Import all the libraries
    - Load and explore dataset
    - Drop irrelevant columns (e.g., unnamed index columns)
    - Handle missing values if any
+3. Text Preprocessing
+   - Clean and Normalize text(Lowercasing, removing, punctuation, etc)
+   - Remove all the Non-Informative Columns from our model
+   - Using Lemma and Stop Words
+   - Organize the Columns by order
+   - Tokenization and vectorization 
+  
